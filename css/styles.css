@@ -25,6 +25,10 @@ body {
     text-align: center;
 }
 
+.main-part{
+    margin-top: 50px;
+}
+
 .question-card-list{
     display: flex;
     flex-direction: column;
