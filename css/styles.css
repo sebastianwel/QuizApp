@@ -1,3 +1,22 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f6f9;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+}
+
+.page-title {
+    text-align: center;
+}
