@@ -5,7 +5,16 @@
 }
 
 body {
+    position: absolute;
+    top: 0px;
     font-family: sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+
+.dark-mode-on{
+    background-color: #2f4858;
+    color: #fff;
 }
 
 .app-header {
@@ -21,11 +30,11 @@ body {
     height: 50px;
 }
 
-.page-title {
+.app-header__title {
     text-align: center;
 }
 
-.main-part{
+main {
     margin-top: 50px;
 }
 
@@ -41,7 +50,7 @@ body {
     padding: 5px;
 }
 
-.question-card-list-item{
+.question-card-list__item{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -73,7 +82,7 @@ body {
     margin: 10px;
 }
 
-.category{
+.question-category{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -94,22 +103,87 @@ body {
     margin-bottom: 100px;
 }
 
-.footer-nav {
+footer {
     position: fixed;
     bottom: 0;
     height: 50px;
     width: 100%;
     background-color: #FF6D60;
     padding: 0;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
-.navbar {
+.footer-navbar {
     display: flex;
     justify-content: space-between;
 }
 
-.navbar-icon{
+.footer-navbar__icon{
     height: 30px;
     width: 30px;
     margin: 5px;
 }
+
+
+/* Profile.html */
+
+.profile-name-and-picture{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile-name-and-picture__picture{
+    border: solid 2px black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profile-name-and-picture__name{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.about{
+    margin: 10px;
+    text-align: center;
+}
+
+.counter-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 50px;
+}
+
+.counter-list__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 30%;
+}
+
+.counter-list__item__picture{
+    height: 50px;
+    width: auto;
+}
+
+.preferences__item{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.preferences__dark-mode{
+    display: flex;
+    align-items: center;
+}
+
