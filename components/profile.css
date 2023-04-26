@@ -1,0 +1,64 @@
+.profile-name-and-picture{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile-name-and-picture__picture{
+    border: solid 2px black;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.profile-name-and-picture__name{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.profile-about{
+    margin: 10px;
+    text-align: center;
+}
+
+.counter-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 50px;
+}
+
+.counter-list__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 30%;
+}
+
+.counter-list__item__picture{
+    height: 50px;
+    width: auto;
+}
+
+.preferences{
+    height: auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.preferences__item{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.preferences__dark-mode{
+    display: flex;
+    align-items: center;
+}

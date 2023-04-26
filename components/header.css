@@ -1,0 +1,19 @@
+
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6D60;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 50px;
+}
+
+
+.app-header__title {
+    text-align: center;
+}
