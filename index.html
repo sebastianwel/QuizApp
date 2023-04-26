@@ -6,50 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="./css/styles.css">
-<link rel="svg" href="./assets/">
+<link rel="stylesheet" href="./styles.css">
+<script src="./javascript/index.js" defer></script>
+
 <body>
     <header class="app-header">
         <h1 class="app-heder__title">Quiz App</h1>
     </header>
+
     <main>
         <ul class="question-card-list">
             <li class="question-card-list__item">
-            <img class="card-bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
-            <p>What is the difference between HTML and CSS?</p>
-            <button class="show-answer">Show Answer</button>
+            <img class="question-card-list__bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
+            <p class="question-card-list__item-question">What is the difference between HTML and CSS?</p>
+            <button data-js="button" type="button" class="question-card-list__answer-button">Show Answer</button>
+            <p class="answer--hidden" data-js="answer">Here is the answer</p>
             <p class="question-category"><span class="category-tag">#html</span> <span class="category-tag">#css</span></p>
             </li>
-
+        
             <li class="question-card-list__item">
-                <img class="card-bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
+                <img class="question-card-list__bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
                 <p>What is the difference between HTML and CSS?</p>
-                <button class="show-answer">Show Answer</button>
+                <button class="question-card-list__answer-button">Show Answer</button>
                 <p class="question-category"><span class="category-tag">#html</span> <span class="category-tag">#css</span></p>
             </li>
 
             <li class="question-card-list__item">
-                <img class="card-bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
+                <img class="question-card-list__bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
                 <p>What is the difference between HTML and CSS?</p>
-                <button class="show-answer">Show Answer</button>
+                <button class="question-card-list__answer-button">Show Answer</button>
                 <p class="question-category"><span class="category-tag">#html</span> <span class="category-tag">#css</span></p>
             </li>
 
             <li class="question-card-list__item">
-                <img class="card-bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
+                <img class="question-card-list__bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
                 <p>What is the difference between HTML and CSS?</p>
-                <button class="show-answer">Show Answer</button>
+                <button class="question-card-list__answer-button">Show Answer</button>
                 <p class="question-category"><span class="category-tag">#html</span> <span class="category-tag">#css</span></p>
             </li>
             
             <li class="question-card-list__item">
-                <img class="card-bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
+                <img class="question-card-list__bookmark" src="./assets/bookmark.svg" alt="card-bookmark">
                 <p>What is the difference between HTML and CSS?</p>
-                <button class="show-answer">Show Answer</button>
+                <button class="question-card-list__answer-button">Show Answer</button>
                 <p class="question-category"><span class="category-tag">#html</span> <span class="category-tag">#css</span></p>
             </li>
         </ul>
     </main>
+   
     <footer>
     <nav class="footer-navbar">
         <a href="./index.html"><img class="footer-navbar__icon" src="./assets/home-filled.svg" alt="home"></a>
