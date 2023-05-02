@@ -1,0 +1,11 @@
+
+
+.question-card-list__answer-button{
+    margin: 10px;
+}
+
+
+.dark-mode-on{
+    background-color: #2f4858;
+    color: #fff;
+}

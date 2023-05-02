@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./styles.css">
+<script src="./javascript/index.js" defer></script>
+<body data-js="body-element">
+    <header class="app-header">
+        <h1 class="app-heder__title">Quiz App</h1>
+    </header>
+    <main>
+        <section class="profile-name-and-picture">
+        <img class ="profile-name-and-picture__picture" src="./assets/profile.svg" alt="">
+        <h3 class="profile-name-and-picture__name">Sebastian Welzer</h3>
+        </section>
+        <section class="profile-about">
+            <h3 class="profile-about__headline">About</h3>
+            <p class="profile-about__text">Here will be some text about an awesome quizzmaster</p>
+        </section>
+        <section class="counter">
+            <ul class="counter-list">
+                <li class="counter-list__item">
+                    <img class="counter-list__item__picture" src="./assets/questions.svg" alt="questions">
+                    <p>2</p>
+                </li>
+                <li class="counter-list__item">
+                    <img class="counter-list__item__picture" src="./assets/bookmark-filled.svg" alt="questions">
+                    <p>2</p>
+                </li>
+            </ul>
+        </section>
+        <section class="preferences">
+            <p class="preferences__item">Settings</p>
+            <div class="preferences__dark-mode"><p class="preferences__item">Dark Mode</p><button data-js="switch__dark-mode" type="button" class="button__dark-mode">Click for Dark mode</button></div>
+        </section>
+       
+    </main>
+    <footer>
+    <nav class="footer-navbar">
+        <a href="./index.html"><img class="footer-navbar__icon" src="./assets/home.svg" alt="home"></a>
+        <a href="./bookmarks.html"><img class="footer-navbar__icon" src="./assets/bookmark.svg" alt="bookmark"></a>
+        <a href="./profile.html"><img class="footer-navbar__icon" src="./assets/profile-filled.svg" alt="profile"></a>
+    </nav>
+    </footer>
+</body>
+</html>
